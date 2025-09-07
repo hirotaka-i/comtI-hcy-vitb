@@ -5,6 +5,10 @@ Levodopa vs Hcy vs VitB6
 
 - **Data file:** `data/Vitamine B6 data.xlsx`
 - **Script:** `code/clean_data.r`
+- **Output files:**
+  - `temp/cleaned_data.csv` (cleaned data)
+  - `report/histograms.pdf` (histograms before outlier removal)
+  - `report/histograms_4sd_removed.pdf` (histograms after outlier removal)
 
 ### Data Overview
 
@@ -47,6 +51,9 @@ _Before and after outlier removal were saved in the `report` folder._
 
 - **Data:** `temp/cleaned_data.csv`
 - **Script:** `analyze_Hcy.r`
+- **Output files:**
+  - `report/ld_hcy_local_estimate.jpg` (main figure)
+  - Other figures and tables as generated
 
 ### Base Model
 
