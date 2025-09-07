@@ -57,7 +57,7 @@ ggplot(results, aes(x = ld_center, y = est)) +
 
 # Local estimate for each LD value (±range), stratified by COMTIuse
 range <- 150
-ld_seq <- seq(min(400, na.rm=TRUE), 1000, length.out=100)
+ld_seq <- seq(min(400, na.rm=TRUE), 1000, length.out=10)
 pred_list <- list()
 
 for (ld_center in ld_seq) {
